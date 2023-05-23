@@ -60,15 +60,20 @@ if 'past' not in st.session_state:
 response_container = st.container()
 input_container = st.container()
 
-
 # User input
 ## Function for taking user provided prompt as input
 def get_text():
-    input_text = st.text_input("You: ", "", key="input")
-    return input_text
+    text = st.text_input("You: ", "", key="input")
+    return text
+
+def clear_text():
+    st.session_state["input"] = ""
+
 ## Applying the user input box
 with input_container:
     user_input = get_text()
+    st.button("Clear Text", on_click=clear_text)
+ 
 
 messages = [{"role": "system", "content": "You are a friendly mental health adviser providing mental health support and service. \
              Make your responses more friendly by including mixture of English and Tagalog slangs like 'Bes' to make the conversation more interesting."}]
