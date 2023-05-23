@@ -8,12 +8,9 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(page_title="Beshie Chatbot", page_icon=":robot:")
 
-st.write("Secret Key", st.secrets["openai_secret_key"])
+st.secrets["openai_secret_key"]
 # And the root-level secrets are also accessible as environment variables:
-st.write(
-    "Has environment variables been set:",
-    os.environ["openai_secret_key"] == st.secrets["openai_secret_key"],
-)
+os.environ["openai_secret_key"] == st.secrets["openai_secret_key"]
 
 page_bg = f"""
 <style>
