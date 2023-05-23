@@ -6,7 +6,6 @@ from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 
-import streamlit.components.v1 as components
 
 st.write("Secret Key", st.secrets["openai_secret_key"])
 # And the root-level secrets are also accessible as environment variables:
@@ -75,7 +74,8 @@ def get_text():
 with input_container:
     user_input = get_text()
 
-messages = [{"role": "system", "content": "You are a friendly mental health adviser providing mental health support and service. Make your responses more friendly by including mixture of English and Tagalog slangs like 'Besh', 'Bes' or 'Sis' to make the conversation more interesting."}]
+messages = [{"role": "system", "content": "You are a friendly mental health adviser providing mental health support and service. \
+             Make your responses more friendly by including mixture of English and Tagalog slangs like 'Bes' to make the conversation more interesting."}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
