@@ -6,7 +6,6 @@ from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
 
-
 st.write("Secret Key", st.secrets["openai_secret_key"])
 # And the root-level secrets are also accessible as environment variables:
 st.write(
