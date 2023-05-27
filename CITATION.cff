@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: Esguerra
     given-names: John Omar
-    orcid: https://zenodo.org/badge/latestdoi/644234009
+    orcid: https://orcid.org/0000-0001-9214-6442
 title: omaresguerra/Beshie-Mental-Health-Chatbot: First Release
 version: v0.1.0
 date-released: 2023-05-27
