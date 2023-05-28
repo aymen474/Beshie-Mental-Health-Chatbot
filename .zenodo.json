@@ -1,0 +1,28 @@
+{
+    "description": "First Release\n<p>Finally releasing code!</p>", 
+    "license": "other-open", 
+    "title": "omaresguerra/Beshie-Mental-Health-Chatbot: First Release", 
+    "version": "v0.1.0", 
+    "upload_type": "software", 
+    "publication_date": "2023-05-27", 
+    "creators": [
+        {
+            "name": "Esguerra, John Omar D.",
+            "affiliation": "Cagayan State University", 
+            "orcid": "https://orcid.org/0000-0001-9214-6442"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/omaresguerra/Beshie-Mental-Health-Chatbot/tree/v0.1.0", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.7976838", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
