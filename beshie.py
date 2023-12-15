@@ -43,7 +43,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     add_vertical_space(5)
-    st.markdown("<p style='color:white;'> Made with 💚 by <a href='https://omaresguerra.github.io' style='color:white;'>Omar Esguerra</a> </p>", unsafe_allow_html=True)
+    st.markdown("<p style='color:white;'> Made with 💚 by <a href='https://github.com/omaresguerra' style='color:white;'>Omar Esguerra</a> </p>", unsafe_allow_html=True)
 
 
 
