@@ -32,9 +32,9 @@ with st.sidebar:
 
     image = Image.open('Beshie Logo.png')
     st.image(image, width=280)
-    st.markdown("<h3 style='text-align: center'; color: white'> Mental Health Chatbot </h3>", unsafe_allow_html= True)
+    st.markdown("<h2 style='text-align: center'; color: white;'> Mental Health Chatbot </h2>", unsafe_allow_html= True)
 
-    st.markdown("<h1 style='text-align: left; color: white'> About </h1>", unsafe_allow_html= True)
+    st.markdown("<h1 style='text-align: left; color: white;'> About </h1>", unsafe_allow_html= True)
     st.markdown("""
     <p style='text-align: left; color: white;'> Meet Beshie, your friendly mental health chatbot! Whether you're feeling down, anxious, or stressed, 
     Beshie is here to help you navigate through your emotions and provide you with the guidance you need to feel better.
