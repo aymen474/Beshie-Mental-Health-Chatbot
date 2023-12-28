@@ -4,7 +4,7 @@ from PIL import Image
 import os
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
-from streamlit_extras import add_vertical_space
+from streamlit_extras.add_vertical_space import add_vertical_space
 
 st.set_page_config(page_title="Beshie Chatbot", page_icon=":robot:")
 
