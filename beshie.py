@@ -32,7 +32,7 @@ with st.sidebar:
 
     image = Image.open('Beshie Logo.png')
     st.image(image, width=280)
-    st.markdown("<h2 style='text-align: center'; color: white;'> Mental Health Chatbot </h2>", unsafe_allow_html= True)
+    st.markdown("<h2 style='text-align: center; color: white;'> Mental Health Chatbot </h2>", unsafe_allow_html= True)
 
     st.markdown("<h1 style='text-align: left; color: white;'> About </h1>", unsafe_allow_html= True)
     st.markdown("""
